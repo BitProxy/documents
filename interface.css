@@ -1,0 +1,48 @@
+.sidebar {
+  display: none;
+  flex-direction: column;
+  width: 200px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.sidebar.show {
+  display: flex;
+}
+
+.main-navigation {
+  flex-grow: 1;
+}
+
+.navigation-item {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.navigation-item i {
+  margin-right: 10px;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+}
+
+body {
+  font-family: 'Osswald', sans-serif;
+  background-color: rgb(45, 45, 45);
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'Osswald';
+  src: url('https://www.bitx96.com/font/Oswald-Regular.ttf') format('truetype');
+}
